@@ -19,6 +19,12 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
+      - name: List files in repository
+        run: |
+          ls -la
+          ls -la docs
+          ls -la .
+          
       - name: Build MkDocs site
         run: |
           mkdocs build
