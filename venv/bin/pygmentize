@@ -1,4 +1,4 @@
-#!/Users/gabriella/Documents/Eryz-Notes/venv/bin/python3.12
+#!/Users/gabriella/Documents/eryz-os/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
