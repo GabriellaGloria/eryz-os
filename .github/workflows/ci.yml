@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -19,12 +22,6 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: List files in repository
-        run: |
-          ls -la
-          ls -la docs
-          ls -la .
-          
       - name: Build MkDocs site
         run: |
           mkdocs build
@@ -33,7 +30,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
 
