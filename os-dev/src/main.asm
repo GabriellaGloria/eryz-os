@@ -17,14 +17,14 @@ puts:
 
 .loop:
 	; lodsb loads result in al
-	lodsb	; load a byte from ds:si and increment the si by 1 byte	
-	or al, al	; verify if null or not (if 0, zero-flag next -> null terminating char)
+	lodsb			; load a byte from ds:si and increment the si by 1 byte	
+	or al, al		; verify if null or not (if 0, zero-flag next -> null terminating char)
 	jz .done
 
 	; prints a character stored by al	
-	mov ah, 0x0e ; interrupt number
-	mov bh, 0 ; set page number 0 since not graphic
-	int 0x10  ; for video interrups (here for only printing char in tty)
+	mov ah, 0x0e 	; interrupt number
+	mov bh, 0 		; set page number 0 since not graphic
+	int 0x10  		; for video interrups (here for only printing char in tty)
 
 	jmp .loop
 	
