@@ -47,6 +47,12 @@ Hey, I’m Gabriella Gloria, an NUS Computer Science student 🎓, interested in
 ### 💻 Contribute
 This is a personal learning project, but feel free to open issues, suggest improvements, or just chat about OS dev! 😊
 
+### 📝 References 
+This project takes reference from :
+1. [Youtube - nanobyte](https://www.youtube.com/playlist?list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN)
+2. [539 Kernel](https://539kernel.com/)
+3. CS2106 @ NUS
+
 ### 📬 Contact
 🐙 GitHub: GabriellaGloria<br>
 📧 Email: <a href="mailto:gabriella@u.nus.edu">gabriella@u.nus.edu</a>

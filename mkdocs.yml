@@ -47,8 +47,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - project: 
+  - Project: 
       - Hello-World : project/hello-world.md
+      - Filesystem : project/FAT12.md
   # - Tags: tags.md
 
 repo_url: https://github.com/GabriellaGloria/eryz-os

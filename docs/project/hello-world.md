@@ -10,6 +10,8 @@ In this section, I am writing a Simple Bootloader with NASM and QEMU thats simpl
 ---
 
 ## 🌟 Setting up
+You will need to have `qemu, make, nasm` installed (use `brew install qemu make nasm` if you're a mac user)
+
 Directory Structure :
 ```
 os-dev/
